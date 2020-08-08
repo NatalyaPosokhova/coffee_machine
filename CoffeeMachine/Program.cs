@@ -9,9 +9,6 @@ namespace CoffeeMachine
     {
         public static void Main(string[] args)
         {
-            CoffeeMachine machine = new CoffeeMachine(new Milk(), new Milk(), new Syrup(), new Sugar(), new Sugar());
-            Console.WriteLine(machine.PrepareCofee());
-            Console.ReadKey();
         }
     }
 }

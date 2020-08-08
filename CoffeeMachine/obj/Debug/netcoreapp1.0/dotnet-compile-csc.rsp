@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\bin\Debug\netcoreapp1.0\CoffeeMachine.dll"
+"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\CoffeeMachine\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\CoffeeMachine\bin\Debug\netcoreapp1.0\CoffeeMachine.dll"
 -r:"C:\Users\NPosokhova\.nuget\packages\Microsoft.CSharp\4.0.1\ref\netstandard1.0\Microsoft.CSharp.dll"
 -r:"C:\Users\NPosokhova\.nuget\packages\Microsoft.VisualBasic\10.0.1\ref\netstandard1.1\Microsoft.VisualBasic.dll"
 -r:"C:\Users\NPosokhova\.nuget\packages\Microsoft.Win32.Primitives\4.0.1\ref\netstandard1.3\Microsoft.Win32.Primitives.dll"
@@ -82,10 +82,10 @@
 -r:"C:\Users\NPosokhova\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\NPosokhova\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\NPosokhova\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
-"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\CoffeeMachine.cs"
-"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\IAdditive.cs"
-"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\Milk.cs"
-"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\Program.cs"
-"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\Sugar.cs"
-"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\Syrup.cs"
-"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\Properties\AssemblyInfo.cs"
+"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\CoffeeMachine\Additive.cs"
+"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\CoffeeMachine\Beverage.cs"
+"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\CoffeeMachine\Coffee.cs"
+"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\CoffeeMachine\Milk.cs"
+"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\CoffeeMachine\Program.cs"
+"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\CoffeeMachine\Sugar.cs"
+"C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\CoffeeMachine\Properties\AssemblyInfo.cs"
