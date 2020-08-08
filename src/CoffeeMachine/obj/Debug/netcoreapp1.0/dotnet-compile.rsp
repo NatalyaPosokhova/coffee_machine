@@ -87,5 +87,9 @@
 --reference:C:\Users\NPosokhova\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\NPosokhova\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\CoffeeMachine.cs
+C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\IAdditive.cs
+C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\Milk.cs
 C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\Program.cs
+C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\Sugar.cs
+C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\Syrup.cs
 C:\Users\NPosokhova\Documents\Visual Studio 2015\coffee_machine\src\CoffeeMachine\Properties\AssemblyInfo.cs

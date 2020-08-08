@@ -10,43 +10,28 @@ namespace CoffeeMachine
     /// </summary>
     public class CoffeeMachine
     {
+        IAdditive[] _additives;
         /// <summary>
         /// Result means coffee with all additives.
         /// </summary>
         public string Result { get; private set; }
 
         /// <summary>
-        /// Additives
+        /// All additives are added in the coffee
         /// </summary>
-        private string sugar = "shugar";
-        private string syrup = "syrup";
-        private string milk = "milk";
-        private string add = " + ";
-
-        /// <summary>
-        /// All additives arre added in the coffee
-        /// </summary>
-        /// <param name="additive"></param>
         /// <returns></returns>
-        public string PrepareCofee(List<string> additive)
+        public string PrepareCofee()
         {
-            if (additive.Contains(sugar))
+            foreach(IAdditive _additive in _additives)
             {
-                Result += add + sugar;
-            }
-            if(additive.Contains(syrup))
-            {
-                Result += add + syrup;
-            }
-            if(additive.Contains(milk))
-            {
-                Result += add + milk;
+                Result = _additive.Add(Result);
             }
             return Result;
         }
 
-        public CoffeeMachine()
+        public CoffeeMachine(params IAdditive [] additives)
         {
+            this._additives = additives;
             this.Result = "Prepare Coffee";
         }
     }
