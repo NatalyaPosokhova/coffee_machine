@@ -13,9 +13,9 @@ namespace CoffeeMachine
         /// <summary>
         /// Prepares Tea
         /// </summary>
-        public override void Prepare()
+        public override string Prepare()
         {
-            throw new NotImplementedException();
+            return "Tea";
         }
     }
 }

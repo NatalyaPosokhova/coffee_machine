@@ -12,11 +12,7 @@ namespace CoffeeMachine
     {
         protected Beverage beverage;
 
-        /// <summary>
-        /// Defines the concrete beverage
-        /// </summary>
-        /// <param name="beverage"></param>
-        public void SetBeverage(Beverage beverage)
+        public Additive(Beverage beverage)
         {
             this.beverage = beverage;
         }
@@ -24,12 +20,13 @@ namespace CoffeeMachine
         /// <summary>
         /// Prepares beverage
         /// </summary>
-        public override void Prepare()
+        public override string Prepare()
         {
             if(beverage != null)
             {
-                beverage.Prepare();
+                return beverage.Prepare();
             }
+            return String.Empty;
         }
     }
 }

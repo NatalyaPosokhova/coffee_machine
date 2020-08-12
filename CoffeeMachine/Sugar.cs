@@ -10,9 +10,14 @@ namespace CoffeeMachine
     /// </summary>
     public class Sugar : Additive
     {
-        public override void Prepare()
+        public Sugar(Beverage beverage) : base(beverage)
         {
-            base.Prepare();
+        }
+
+        public override string Prepare()
+        {
+            string result = base.Prepare() + " + Sugar";
+            return result;
         }
     }
 }

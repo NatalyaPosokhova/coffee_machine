@@ -13,6 +13,6 @@ namespace CoffeeMachine
         /// <summary>
         /// Prepares beverage
         /// </summary>
-        public abstract void Prepare();
+        public abstract string Prepare();
     }
 }
